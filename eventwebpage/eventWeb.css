@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background: rgb(0, 0, 90);
+}
+
+.background {
+    background-image: url("backgroundConference.jpg");
+}
+
+/* Nav bar */
+
+nav.top ul li a {
+    color: white;
+    font-size: 48px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    background: rgba(192, 2, 2, 0.986);
+    margin: 0;
+    height: 60px;
+    align-items: left;
+    border: 2px solid black;
+}
+
+img {
+    width: 60px;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Text Below Nav Bar */
+
+header,
+h2,
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+
+}
+
+.main-text {
+    text-align: center;
+    font-size: 48px;
+}
+
+#countdown {
+    margin-top: 200px;
+    margin-bottom: 0;
+    background: red;
+}
